@@ -1,0 +1,91 @@
+<mxfile>
+    <diagram id="uE8SdplVaawL0pU6j1tc" name="Page-1">
+        <mxGraphModel dx="1201" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry y="40" width="840" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;p style=&quot;line-height: 120% ; font-size: 17px&quot;&gt;Path&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="120" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;h2&gt;Method&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h2&gt;Body?&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="120" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;h2&gt;Goal&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="120" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;h3&gt;/posts&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="200" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;h3&gt;POST&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="200" width="125" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h2&gt;{ title : string }&lt;/h2&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="200" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;h3&gt;Create New Post&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="200" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;h3&gt;/posts&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="270" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;h3&gt;GET&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="270" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;h1&gt;-&lt;/h1&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="270" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;h3&gt;Retrieve all posts&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="270" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;POSTS SERVICE&lt;/h1&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontFamily=Helvetica;fontColor=#0A0A0A;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="45" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;COMMENTS SERVICE&lt;/font&gt;&lt;/h1&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry y="340" width="840" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;p style=&quot;line-height: 120% ; font-size: 17px&quot;&gt;Path&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="410" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h2&gt;Method&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="410" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;h2&gt;Body?&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="410" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;h2&gt;Goal&lt;/h2&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="410" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;h4&gt;/posts/:id/comments&lt;/h4&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="480" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;h3&gt;POST&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="480" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;h2&gt;{ content : string }&lt;/h2&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="480" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;h3&gt;Create a comment associated with the given post&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="480" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;h4&gt;/posts/:id/comments&lt;/h4&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="560" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;h3&gt;GET&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="560" width="125" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;h1&gt;-&lt;/h1&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="560" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;h3&gt;Retrieve all comments associated with the given post ID&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="560" width="290" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
