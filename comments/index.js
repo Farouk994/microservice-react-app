@@ -2,10 +2,12 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { randomBytes } = require("crypto");
 // This generates new random ID that the user is trying to create
+const cors = require("cors");
 
 const app = express();
 
 app.use(bodyParser.json());
+app.use(cors());
 // app.use(express.urlencoded({ extended: true }));
 // app.use(express.json());
 
@@ -24,7 +26,7 @@ app.post("/posts/:id/comments", (req, res) => {
   res.status(201).send(comments);
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log("Listening to Port " + PORT);
 });
