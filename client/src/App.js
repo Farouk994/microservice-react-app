@@ -1,5 +1,5 @@
 import React from "react";
-import PostCreate from "./PostCreate";
+import PostCreate from "./components/PostCreate";
 import PostList from "./PostList";
 import "./App.css";
 
