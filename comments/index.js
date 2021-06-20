@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const { randomBytes } = require("crypto");
+const axios = require("axios");
 // This generates new random ID that the user is trying to create
 const cors = require("cors");
 
@@ -17,16 +18,31 @@ app.get("/posts/:id/comments", (req, res) => {
   res.send(commentsByPostId[req.params.id]) || [];
 });
 
-app.post("/posts/:id/comments", (req, res) => {
+app.post("/posts/:id/comments", async (req, res) => {
   const commentId = randomBytes(4).toString("hex");
   const { content } = req.body;
   const comments = commentsByPostId[req.params.id] || [];
   comments.push({ id: commentId, content });
   commentsByPostId[req.params.id] = comments;
+
+  await axios.post("http://localhost:4005/events",{
+    type : "CommentCreated",
+    data : {
+      id:commentId,
+      content,
+      postId: req.params.id
+    }
+  })
   res.status(201).send(comments);
 });
 
-const PORT = process.env.PORT || 3001;
+app.post("/events",(req,res)=>{
+  console.log("Received new Event: ",req.body.type)
+  res.send({});
+})
+
+
+const PORT = process.env.PORT || 4001;
 app.listen(PORT, () => {
   console.log("Listening to Port " + PORT);
 });
